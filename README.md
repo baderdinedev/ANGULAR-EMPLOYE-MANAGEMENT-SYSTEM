@@ -47,5 +47,5 @@ Before running the project, ensure you have the following installed on your mach
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/angular-employee-management.git
+   git clone https://github.com/baderdinedev/aANGULAR-EMPLOYE-MANAGEMENT-SYSTEM.git
    ```
