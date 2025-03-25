@@ -1,0 +1,57 @@
+/* employee-list.component.css */
+
+/* Styling for mat-card */
+mat-card {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 16px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+mat-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for mat-card-header */
+mat-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ececec;
+}
+
+/* Styling for the h2 element inside mat-card-header */
+mat-card-header h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+  color: #333;
+}
+
+/* Styling for the Add New button */
+mat-card-header button {
+  background-color: #3f51b5;  /* Material Design Primary color */
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  padding: 8px 16px;
+  transition: background-color 0.3s ease;
+}
+
+mat-card-header button:hover {
+  background-color: #303f9f;  /* Darker shade for hover effect */
+}
+
+mat-card-header button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(63, 81, 181, 0.5);
+}
+
+/* Styling for mat-card-content */
+mat-card-content {
+  padding-top: 20px;
+  color: #666;
+}

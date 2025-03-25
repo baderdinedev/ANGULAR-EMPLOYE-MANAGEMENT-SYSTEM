@@ -1,0 +1,95 @@
+/* Styling for mat-card */
+mat-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Hover effect on mat-card */
+mat-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for mat-card-header */
+mat-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #ececec;
+}
+
+/* Heading inside mat-card-header */
+mat-card-header h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin: 0;
+  color: #333;
+}
+
+/* Styling for mat-form-field */
+mat-form-field {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* Styling for input elements */
+mat-form-field input, mat-form-field mat-select {
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  transition: border 0.3s ease, background-color 0.3s ease;
+}
+
+/* Focus effect on input */
+mat-form-field input:focus, mat-form-field mat-select:focus {
+  border-color: #3f51b5;
+  background-color: #e8f0fe;
+}
+
+/* Label Styling */
+mat-form-field mat-label {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Styling for buttons */
+button {
+  background-color: #3f51b5;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #303f9f;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(63, 81, 181, 0.5);
+}
+
+/* Close button styling */
+a {
+  text-decoration: none;
+  background-color: #f5f5f5;
+  color: #3f51b5;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: #ececec;
+}
